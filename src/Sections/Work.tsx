@@ -40,7 +40,8 @@ const Work = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 py: { xs: 6, md: 0 },
-                bgcolor: '#F9FBFF'
+                bgcolor: '#F9FBFF',
+                overflow: 'hidden'
             }}>
                 <Container maxWidth="lg">
                     <Grid container spacing={{ xs: 4, lg: 2 }} alignItems="center">
@@ -180,23 +181,24 @@ const Work = () => {
                     </Grid>
                 </Container>
             </Box>
-            <Box sx={{ position: 'relative', maxWidth: '800px', mx: 'auto', width: '100%', display: 'flex', gap: '32px', py: '80px', flexDirection: 'column', justifyContent: 'center' }}>
+            <Box sx={{
+                position: 'relative',
+
+                alignItems: 'center', width: '100%',overflow:'hidden', display: 'flex', gap: '32px', py: '80px', flexDirection: 'column', justifyContent: 'center'
+            }}>
                 <Box
                     sx={{
                         position: 'absolute',
-                        top: '40%',
+                        top: '120%',
                         left: '50%',
                         transform: 'translate(-50%, -50%)',
-                        width: '1200px',
+                        width: '1977px',
                         maxWidth: '100%',
-                        height: '300px',
-                        background: `radial-gradient(circle, 
-      rgba(0, 149, 255, 0.7) 0%,  
-      rgba(0, 21, 255, 0.6) 40%,  
-      rgba(24, 78, 218, 0.4) 60%, 
-      rgba(24, 78, 218, 0) 0%  
-    )`,
-                        filter: 'blur(120px)',
+                        height: '1154px',
+                       
+                        backgroundImage: `url('public/images/Blur Gradient.svg')`,  
+                        backgroundSize: 'cover',  
+                        backgroundPosition: 'center',  
                         zIndex: 0,
                         pointerEvents: 'none',
                         opacity: 0.9,

@@ -45,7 +45,7 @@ const About = () => {
 
             }}
         >
-            <div className='p-4 w-full flex justify-center'>
+            <div className=' w-full flex justify-center'>
                 <div className='w-full max-w-225 overflow-hidden rounded-xl'>
                     <Swiper
                         spaceBetween={10}

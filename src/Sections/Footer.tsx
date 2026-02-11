@@ -90,7 +90,7 @@ const Footer = () => {
             </Stack>
           </Grid>
 
-          <Grid size={{ xs: 12, md: 5 }}>
+          <Grid size={{ xs: 12, md: 4 }}>
             <Typography variant="h5" fontWeight="900" sx={{ mb: 4, letterSpacing: '1px' }}>
               LOGOO
             </Typography>
