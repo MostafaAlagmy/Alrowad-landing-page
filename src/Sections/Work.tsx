@@ -196,7 +196,7 @@ const Work = () => {
                         maxWidth: '100%',
                         height: '1154px',
                        
-                        backgroundImage: `url('public/images/Blur Gradient.svg')`,  
+                        backgroundImage: `url('/images/Blur Gradient.svg')`,  
                         backgroundSize: 'cover',  
                         backgroundPosition: 'center',  
                         zIndex: 0,
