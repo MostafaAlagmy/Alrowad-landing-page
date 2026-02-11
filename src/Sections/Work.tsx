@@ -204,7 +204,7 @@ const Work = () => {
                         opacity: 0.9,
                     }}
                 />
-                <Typography sx={{ fontWeight: 700, fontSize: { xs: '40px', lg: '56px' }, lineHeight: '110%', textAlign: 'center', color: primaryColor }}>
+                <Typography sx={{ fontWeight: 700, fontSize: { xs: '40px', lg: '56px' },maxWidth:'850px', lineHeight: '110%', textAlign: 'center', color: primaryColor }}>
                     Ready to run your school smarter?
                 </Typography>
                 <Typography sx={{ fontWeight: 400, fontSize: '16px', lineHeight: '150%', textAlign: 'center' }}>
